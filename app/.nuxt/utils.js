@@ -133,7 +133,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: '/',
-      env: {}
+      env: {"APP_NAME":"enomas"}
     }
     // Only set once
     if (context.req) {
