@@ -5,6 +5,9 @@ export default {
     env: {
         NODE_ENV
     },
+    css:[
+      'assets/style/app.scss'
+    ],
     buildModules: [
         ['@nuxt/typescript-build', {
             typeCheck: true
